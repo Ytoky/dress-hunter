@@ -1,0 +1,110 @@
+.wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 338px;
+}
+
+.imagePhoto {
+    width: 338px;
+    height: 435px;
+    object-fit: cover;
+}
+
+.favouriteBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 50%;
+    background: var(--white);
+    cursor: pointer;
+}
+
+.saleInfo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 30px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 500 18px/21px Styrene, sans-serif;
+    border-radius: 2px;
+    background: var(--red);
+    color: var(--white);
+}
+
+.new {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 30px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 500 18px/21px Styrene, sans-serif;
+    border-radius: 2px;
+    background: var(--black);
+    color: var(--white);
+}
+
+.activeFavourite {
+    fill: var(--black);
+}
+
+.nameCloth {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 20px;
+    font: 500 18px/22px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.collectionCloth {
+    padding-top: 11px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font: 400 16px/21px Styrene, sans-serif;
+    color: var(--grey-text);
+}
+
+
+.aboutBuy {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    font: 500 20px/23px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.salePrice {
+    display: flex;
+    font: 500 20px/23px Styrene, sans-serif;
+    color: var(--red);
+}
+
+.salePrice > div {
+    align-self: end;
+    padding-left: 11px;
+    font: 400 16px/19px Styrene, sans-serif;
+    color: var(--grey-text);
+    text-decoration: line-through;
+}
+
+.color {
+    align-self: center;
+    width: 15px;
+    height: 15px;
+    background: var(--black);
+    border-radius: 50%;
+}

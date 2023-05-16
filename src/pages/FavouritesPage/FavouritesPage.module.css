@@ -1,0 +1,32 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 44px 240px 130px 240px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font: 400 16px/21px Styrene, sans-serif;
+    color: var(--black);
+    cursor: default;
+}
+
+.nav > a {
+    color: var(--grey-text);
+    text-decoration: none;
+}
+
+.wrap > h1{
+    margin-top: 40px;
+    font: 500 48px/61px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.favouriteContent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    margin-top: 68px;
+}

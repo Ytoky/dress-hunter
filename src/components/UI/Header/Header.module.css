@@ -1,0 +1,38 @@
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 240px;
+    color: var(--black);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+}
+
+.wrap > a > h3, .wrap > a {
+    font: 500 20px/24px Styrene, sans-serif;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.navPanel {
+    display: flex;
+    gap: 40px;
+    font: 400 18px/20px Styrene, sans-serif;
+}
+
+.navPanel > a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.navUser {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.navUser > button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}

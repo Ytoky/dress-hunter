@@ -1,0 +1,102 @@
+{
+  "cloth": [
+    {
+      "id": 1,
+      "name": "Халат из трикотажа с отделкой из сетки",
+      "collectionName": "Капсула «Название капсулы»",
+      "price": 9800,
+      "isFavourite": true,
+      "isNew": false,
+      "isSale": false,
+      "imageUrl": "https://ii3.pepperfry.com/media/catalog/product/r/e/1100x1210/red-solid-cotton-unisex-bath-robe--l--by-loomkart-red-solid-cotton-unisex-bath-robe--l--by-loomkart-7yiuzx.jpg",
+      "salePercent": 20
+    },
+    {
+      "id": 2,
+      "name": "Платье",
+      "collectionName": "Капсула «Название капсулы»",
+      "price": 12000,
+      "isFavourite": true,
+      "isNew": false,
+      "isSale": true,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0609/0997/7793/products/lgline-cardigan-brown-knit-cardigan-long-sleeve-relaxed-longline-32965145198785.jpg?v=1664714539",
+      "salePercent": 30
+    },
+    {
+      "id": 3,
+      "name": "Шерстяной кашемировый топ с длинными рукавами в рубчик",
+      "collectionName": "Капсула «Название капсулы»",
+      "price": 20000,
+      "isFavourite": true,
+      "isNew": true,
+      "isSale": false,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1630/7707/products/image_7625a1c7-6389-408c-ac0c-7705db8db558_1024x1024.webp?v=1652746234",
+      "salePercent": 10
+    },
+    {
+      "id": 4,
+      "name": "LAYLA MICRO трикотаж",
+      "collectionName": "Капсула «Название капсулы»",
+      "price": 10900,
+      "isFavourite": true,
+      "isNew": false,
+      "isSale": false,
+      "imageUrl": "https://garbarinishop.com/wp-content/uploads/2020/11/face7849Screen20Shot202020-11-2520at205.26.0020PM.png",
+      "salePercent": 10
+    },
+    {
+      "id": 5,
+      "name": "Красное платье миди с длинными рукавами и поясом-оби",
+      "collectionName": "Капсула «Название капсулы»",
+      "price": 3500,
+      "isFavourite": true,
+      "isNew": true,
+      "isSale": false,
+      "imageUrl": "https://images.asos-media.com/products/asos-design-tall-long-sleeve-midi-dress-with-obi-belt-in-red/201449286-4?$n_640w$&wid=513&fit=constrain",
+      "salePercent": 10
+    },
+    {
+      "id": 6,
+      "name": "Однотонное пальто-свитер оверсайз",
+      "collectionName": "Капсула «Название капсулы»",
+      "price": 6200,
+      "isFavourite": false,
+      "isNew": false,
+      "isSale": true,
+      "imageUrl": "https://www.aftermoda.com/wp-content/uploads/2020/12/Solid-Oversized-Sweater-Coat_3-600x600.jpg",
+      "salePercent": 15
+    },
+    {
+      "id": 7,
+      "name": "Платье с длинным рукавом из хлопка и полиэстра",
+      "collectionName": "Капсула «Название капсулы»",
+      "price": 4000,
+      "isFavourite": false,
+      "isNew": false,
+      "isSale": true,
+      "imageUrl": "https://theshopyohjiyamamoto.com/img/goods/YQ-K74-049/YQ-K74-049_3-3.jpg",
+      "salePercent": 15
+    },
+    {
+      "id": 8,
+      "name": "Укороченная футболка-поло с длинными рукавами",
+      "collectionName": "Капсула «Название капсулы»",
+      "price": 7000,
+      "isFavourite": false,
+      "isNew": false,
+      "isSale": true,
+      "imageUrl": "https://image.doba.com/dg9-NAqjwbmFEcVD/wome-outfits-long-sleeve-hoodies-sweatshirt-tops-long-pants-tracksuits-for-women-sweatshirt-sweat-suit-lady-jogging-set.jpg",
+      "salePercent": 15
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

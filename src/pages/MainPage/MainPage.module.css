@@ -1,0 +1,48 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.slider {
+    max-height: 614.5px;
+}
+
+.slider > img {
+    width: 100%;
+}
+
+.infoStore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 240px;
+    background: var(--bg-grey);
+}
+
+.infoStore > div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font: 400 16px/20px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.novelties {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 120px 240px;
+
+}
+
+.wrap h2 {
+    font: 500 36px/46px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.clothBlock {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

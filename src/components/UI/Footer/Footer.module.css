@@ -1,0 +1,85 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoWrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 240px;
+}
+
+.nameStore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font: 500 20px/24px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    font: 400 14px/18px Styrene, sans-serif;
+}
+
+.offers > div {
+    color: var(--grey-text);
+}
+
+.mainInfo {
+    display: flex;
+    gap: 200px;
+}
+
+.navPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font: 400 16px/20px Styrene, sans-serif;
+}
+
+.navPanel > a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.aboutStore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemAbout {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    font: 400 18px/23px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.itemAbout > div {
+    color: var(--light-grey-text);
+    font: 400 14px/18px Styrene, sans-serif;
+}
+
+.additionalInfoWrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 240px;
+    background: var(--black);
+    color: var(--light-grey-text);
+    font: 400 14px/18px Styrene, sans-serif;
+}
+
+.additionalInfoWrap a{
+    text-decoration: none;
+    color: #00D2C8;
+}
+
+.additionalInfoWrap > div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

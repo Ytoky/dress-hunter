@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Styrene;
+  src: url('./assets/fonts/StyreneAWeb-Light.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Styrene;
+  src: url('./assets/fonts/StyreneAWeb-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Styrene;
+  src: url('./assets/fonts/StyreneAWeb-Bold.ttf');
+  font-weight: 600;
+}
