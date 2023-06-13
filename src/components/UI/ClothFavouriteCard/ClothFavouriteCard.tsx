@@ -1,23 +1,28 @@
 import styles from './ClothFavouriteCard.module.css'
 import React, {FC} from "react";
-import {clothResponse} from "../../../services/ClothApi/type.ts";
+import {ClothResponse} from "../../../services/ClothApi/type.ts";
 import {ReactComponent as Cross} from "../../../assets/images/cross.svg";
 import {clothApi} from "../../../services/ClothApi/clothApi.ts";
 
-interface IClothFavouriteCardProps extends clothResponse {
-    updateContent: React.Dispatch<clothResponse[]>
+interface IClothFavouriteCardProps extends ClothResponse {
+    updateContent: React.Dispatch<ClothResponse[]>
 }
 
 export const ClothFavouriteCard: FC<IClothFavouriteCardProps> = (props) => {
 
-    const {imageUrl, name, price, updateContent, id} = props
+    const {imageUrl, name, price, updateContent, id, isCart} = props
 
     const handleDeleteFromFavourite = () => {
         clothApi.patchClothById(id, {
             ...props,
             isFavourite: false
-        }).then(() => clothApi.getClothes('?isFavourite=true').then(r => updateContent(r)));
-
+        }).then(() => clothApi.getClothes('?isFavourite=true').then(updateContent));
+    }
+    const handleAddCart = () => {
+        clothApi.patchClothById(id, {
+            ...props,
+            isCart: !isCart
+        }).then(() => clothApi.getClothes('?isFavourite=true').then(updateContent));
     }
 
     return (
@@ -28,7 +33,9 @@ export const ClothFavouriteCard: FC<IClothFavouriteCardProps> = (props) => {
                 <div className={styles.name}>{name}</div>
                 <div className={styles.price}>{price.toLocaleString()} ₽</div>
             </div>
-            <button className={styles.addToCart}>Добавить в корзину</button>
+            <button className={isCart ? styles.deleteFromCart : styles.addToCart} onClick={handleAddCart}>
+                {isCart ? 'Удалить из корзины' : 'Добавить в корзину'}
+            </button>
         </div>
     );
 };

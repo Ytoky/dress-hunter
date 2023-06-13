@@ -67,6 +67,8 @@
     padding-top: 20px;
     font: 500 18px/22px Styrene, sans-serif;
     color: var(--black);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .collectionCloth {

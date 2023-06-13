@@ -2,20 +2,11 @@ import {ReactComponent as Favourite} from "../../../assets/images/favourites.svg
 import {FC, useState} from "react";
 import {clothApi} from "../../../services/ClothApi/clothApi.ts";
 import styles from "./ClothCard.module.css";
+import {Link} from "react-router-dom";
+import {ClothResponse} from "../../../services/ClothApi/type.ts";
 
-interface IClothCardProps {
-    id: number;
-    name: string;
-    collectionName: string;
-    price: number;
-    isFavourite: boolean;
-    isNew?: boolean;
-    isSale?: boolean;
-    salePercent?: number;
-    imageUrl: string;
-}
 
-export const ClothCard: FC<IClothCardProps> = props => {
+export const ClothCard: FC<ClothResponse> = props => {
     const {
         id,
         name,
@@ -52,7 +43,7 @@ export const ClothCard: FC<IClothCardProps> = props => {
             <button className={styles.favouriteBtn} onClick={handleFavourites}>
                 <Favourite className={isActiveFavourite ? styles.activeFavourite : styles.unactiveFavourite}/>
             </button>
-            <div className={styles.nameCloth}>{name}</div>
+            <Link to={`/cloth/${id}`} className={styles.nameCloth}>{name}</Link>
             <div className={styles.collectionCloth}>{collectionName}</div>
             <span className={styles.aboutBuy}>
                 <div>

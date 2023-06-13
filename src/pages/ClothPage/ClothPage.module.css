@@ -1,0 +1,132 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 44px 240px 127px 240px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font: 400 16px/21px Styrene, sans-serif;
+    color: var(--black);
+    cursor: default;
+}
+
+.nav > a {
+    color: var(--grey-text);
+    text-decoration: none;
+}
+
+.currentClothBlock {
+    display: flex;
+    gap: 85px;
+    margin-top: 56px;
+}
+
+.photoCloth {
+    width: 560px;
+    height: 808px;
+    object-fit: cover;
+}
+
+.clothTextInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.clothTextInfo > .name {
+    font: 400 30px/35px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.clothTextInfo > .price {
+    padding: 19px 0;
+    font: 700 24px/28px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.clothTextInfo > .capsule {
+    font: 400 16px/21px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.clothColor {
+    display: flex;
+    gap: 3px;
+    margin-top: 62px;
+    font: 400 16px/21px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.clothColor > div {
+    color: var(--grey-text);
+}
+
+.btnWrap {
+    display: flex;
+    gap: 25px;
+    margin-top: 46px;
+}
+
+.addToCart, .deleteFromCart {
+    width: 250px;
+    height: 50px;
+    padding: 14px 0;
+    border: none;
+    font: 400 18px/23px Styrene, sans-serif;
+    color: var(--white);
+    background: var(--black);
+    cursor: pointer;
+}
+
+.deleteFromCart {
+    background: var(--bg-grey);
+    color: var(--black);
+}
+
+.addToFavourite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--black);
+    font: 400 18px/23px Styrene, sans-serif;
+    background: transparent;
+    cursor: pointer;
+}
+
+.favouriteActive {
+    fill: var(--black);
+}
+
+.clothDescription {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 74px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.btnDescription, .btnActiveDescription {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font: 400 18px/23px Styrene, sans-serif;
+    color: var(--grey-text);
+    border: none;
+    background: none;
+    padding-bottom: 16px;
+    cursor: pointer;
+}
+
+.btnActiveDescription {
+    border-bottom: 3px solid var(--black);
+}
+
+.descriptionText {
+    margin-top: 33px;
+    font: 400 18px/26px Styrene, sans-serif;
+    color: var(--black);
+}

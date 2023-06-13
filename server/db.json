@@ -5,22 +5,24 @@
       "name": "Халат из трикотажа с отделкой из сетки",
       "collectionName": "Капсула «Название капсулы»",
       "price": 9800,
-      "isFavourite": true,
+      "isFavourite": false,
       "isNew": false,
       "isSale": false,
       "imageUrl": "https://ii3.pepperfry.com/media/catalog/product/r/e/1100x1210/red-solid-cotton-unisex-bath-robe--l--by-loomkart-red-solid-cotton-unisex-bath-robe--l--by-loomkart-7yiuzx.jpg",
-      "salePercent": 20
+      "salePercent": 20,
+      "isCart": false
     },
     {
       "id": 2,
       "name": "Платье",
       "collectionName": "Капсула «Название капсулы»",
       "price": 12000,
-      "isFavourite": true,
+      "isFavourite": false,
       "isNew": false,
       "isSale": true,
       "imageUrl": "https://cdn.shopify.com/s/files/1/0609/0997/7793/products/lgline-cardigan-brown-knit-cardigan-long-sleeve-relaxed-longline-32965145198785.jpg?v=1664714539",
-      "salePercent": 30
+      "salePercent": 30,
+      "isCart": true
     },
     {
       "id": 3,
@@ -31,7 +33,8 @@
       "isNew": true,
       "isSale": false,
       "imageUrl": "https://cdn.shopify.com/s/files/1/1630/7707/products/image_7625a1c7-6389-408c-ac0c-7705db8db558_1024x1024.webp?v=1652746234",
-      "salePercent": 10
+      "salePercent": 10,
+      "isCart": true
     },
     {
       "id": 4,
@@ -42,7 +45,8 @@
       "isNew": false,
       "isSale": false,
       "imageUrl": "https://garbarinishop.com/wp-content/uploads/2020/11/face7849Screen20Shot202020-11-2520at205.26.0020PM.png",
-      "salePercent": 10
+      "salePercent": 10,
+      "isCart": true
     },
     {
       "id": 5,
@@ -53,7 +57,8 @@
       "isNew": true,
       "isSale": false,
       "imageUrl": "https://images.asos-media.com/products/asos-design-tall-long-sleeve-midi-dress-with-obi-belt-in-red/201449286-4?$n_640w$&wid=513&fit=constrain",
-      "salePercent": 10
+      "salePercent": 10,
+      "isCart": false
     },
     {
       "id": 6,
@@ -64,7 +69,8 @@
       "isNew": false,
       "isSale": true,
       "imageUrl": "https://www.aftermoda.com/wp-content/uploads/2020/12/Solid-Oversized-Sweater-Coat_3-600x600.jpg",
-      "salePercent": 15
+      "salePercent": 15,
+      "isCart": true
     },
     {
       "id": 7,
@@ -75,7 +81,8 @@
       "isNew": false,
       "isSale": true,
       "imageUrl": "https://theshopyohjiyamamoto.com/img/goods/YQ-K74-049/YQ-K74-049_3-3.jpg",
-      "salePercent": 15
+      "salePercent": 15,
+      "isCart": true
     },
     {
       "id": 8,
@@ -86,7 +93,8 @@
       "isNew": false,
       "isSale": true,
       "imageUrl": "https://image.doba.com/dg9-NAqjwbmFEcVD/wome-outfits-long-sleeve-hoodies-sweatshirt-tops-long-pants-tracksuits-for-women-sweatshirt-sweat-suit-lady-jogging-set.jpg",
-      "salePercent": 15
+      "salePercent": 15,
+      "isCart": true
     }
   ],
   "comments": [

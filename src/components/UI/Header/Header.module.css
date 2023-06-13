@@ -21,11 +21,13 @@
 }
 
 .navPanel > a {
+    position: relative;
     text-decoration: none;
     color: var(--black);
 }
 
 .navUser {
+    position: relative;
     display: flex;
     gap: 30px;
     align-items: center;
@@ -35,4 +37,19 @@
     border: none;
     background: none;
     cursor: pointer;
+}
+
+.countCartItems{
+    position: absolute;
+    right: -5px;
+    bottom: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    font: 400 10px/12px Styrene, sans-serif;
+    background: var(--light-grey-text);
+    color: var(--black);
 }

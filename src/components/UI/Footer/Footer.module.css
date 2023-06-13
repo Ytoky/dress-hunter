@@ -1,4 +1,5 @@
 .wrap {
+    border-top: 1px solid var(--grey-text);
     display: flex;
     flex-direction: column;
 }
@@ -64,7 +65,7 @@
     font: 400 14px/18px Styrene, sans-serif;
 }
 
-.additionalInfoWrap{
+.additionalInfoWrap {
     display: flex;
     justify-content: space-between;
     padding: 60px 240px;
@@ -73,12 +74,12 @@
     font: 400 14px/18px Styrene, sans-serif;
 }
 
-.additionalInfoWrap a{
+.additionalInfoWrap a {
     text-decoration: none;
     color: #00D2C8;
 }
 
-.additionalInfoWrap > div{
+.additionalInfoWrap > div {
     display: flex;
     align-items: center;
     gap: 15px;

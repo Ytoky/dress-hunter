@@ -1,4 +1,4 @@
-export interface clothResponse {
+export interface ClothResponse {
     id: number
     name: string
     collectionName: string
@@ -8,4 +8,5 @@ export interface clothResponse {
     isNew?: boolean
     isSale?: boolean
     salePercent?: number
+    isCart: boolean
 }

@@ -1,0 +1,54 @@
+.wrap {
+    padding: 44px 240px 130px 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.navPanel {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font: 400 16px/20px Styrene, sans-serif;
+}
+
+.navPanel > a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.contactWrap {
+    display: flex;
+    gap: 213px;
+}
+
+.contactWrap > h1 {
+    max-width: 523px;
+    font: 500 48px/61px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.allContact {
+    display: flex;
+    gap: 92px;
+}
+
+.allContact > div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contactItem {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    font: 400 20px/26px Styrene, sans-serif;
+    color: var(--black);
+}
+
+.contactItem > span {
+    font: 400 14px/18px Styrene, sans-serif;
+    color: var(--grey-text);
+    text-transform: uppercase;
+}

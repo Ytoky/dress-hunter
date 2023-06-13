@@ -17,9 +17,9 @@ export const Footer = () => {
                 </div>
                 <div className={styles.mainInfo}>
                     <nav className={styles.navPanel}>
-                        <Link to={''}>Каталог</Link>
-                        <Link to={''}>О бренде</Link>
-                        <Link to={''}>Контакты</Link>
+                        <Link to={'/catalog'}>Каталог</Link>
+                        <Link to={''}>О магазине</Link>
+                        <Link to={'/contacts'}>Контакты</Link>
                         <Link to={''}>Доставка и оплата</Link>
                         <Link to={''}>Возврат</Link>
                     </nav>

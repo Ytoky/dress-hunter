@@ -5,13 +5,13 @@ import {ReactComponent as Reload} from "../../assets/images/reload.svg";
 import {ReactComponent as Delivery} from "../../assets/images/fast-delivery.svg";
 import {ClothCard} from "../../components/UI/ClothCard";
 import {useEffect, useState} from "react";
-import {clothResponse} from "../../services/ClothApi/type.ts";
+import {ClothResponse} from "../../services/ClothApi/type.ts";
 import {clothApi} from "../../services/ClothApi/clothApi.ts";
 import styles from "./MainPage.module.css";
 
 export const MainPage = () => {
 
-    const [clothContent, setClothContent] = useState<clothResponse[]>([]);
+    const [clothContent, setClothContent] = useState<ClothResponse[]>([]);
 
     useEffect(() => {
         clothApi.getClothes('').then(res => setClothContent(res))

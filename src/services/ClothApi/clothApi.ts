@@ -1,16 +1,16 @@
 import {API} from "../api.ts";
-import {clothResponse} from "./type.ts";
+import {ClothResponse} from "./type.ts";
 
 export const clothApi = {
-    async getClothes(params?:string):Promise<clothResponse[]> {
+    async getClothes(params?:string):Promise<ClothResponse[]> {
         const {data} = await API.get(`cloth${params}`)
         return data
     },
-    async getClothById(id:number):Promise<clothResponse> {
+    async getClothById(id:number):Promise<ClothResponse> {
         const {data} = await API.get(`cloth/${id}`)
         return data
     },
-    async patchClothById(id:number, body:clothResponse){
+    async patchClothById(id:number, body:ClothResponse){
         return await API.patch(`cloth/${id}`, body)
     }
 }
